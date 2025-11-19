@@ -49,4 +49,5 @@ with col3:
     st.metric(label="Kelvin (K)", value=f"{K:.2f}", delta="K = C + 273.15")
 
 st.markdown(f"**Suhu Awal:** **{nilai_celsius:.2f} °C**")
+
 st.caption("Aplikasi ini otomatis menghitung saat Anda mengubah nilai Celsius di atas.")
